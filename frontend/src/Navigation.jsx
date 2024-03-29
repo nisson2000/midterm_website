@@ -6,10 +6,10 @@ function Navigation() {
 
   return (
     <nav>
-      <button onClick={() => navigate('/midterm_website/')}>Home</button>
-      <button onClick={() => navigate('/midterm_website/about')}>About</button>
-      <button onClick={() => navigate('/midterm_website/user')}>User</button>
-      <button onClick={() => navigate('/midterm_website/create-user')}>Create User</button>
+      <button onClick={() => navigate('/')}>Home</button>
+      <button onClick={() => navigate('/about')}>About</button>
+      <button onClick={() => navigate('/user')}>User</button>
+      <button onClick={() => navigate('/create-user')}>Create User</button>
     </nav>
   );
 }
