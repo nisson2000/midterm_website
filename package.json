@@ -1,0 +1,14 @@
+{
+  "name": "midterm_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm build",
+    "install:all": "cd frontend && npm install --production=false && cd ../backend && npm"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
