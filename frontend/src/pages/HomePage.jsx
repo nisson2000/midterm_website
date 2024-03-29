@@ -6,7 +6,6 @@ function HomePage() {
   return (
     <div>
       <h1>Welcome to the Mystic Site</h1>
-      
     </div>
   );
 }
