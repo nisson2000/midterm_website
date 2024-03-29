@@ -12,10 +12,10 @@ function App() {
       <div>
         <Navigation /> {/* This will render the navigation buttons */}
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/user" element={<UserPage />} />
-          <Route path="/create-user" element={<CreateUserPage />} />
+          <Route path="/midterm_website/" element={<HomePage />} />
+          <Route path="/midterm_website/about" element={<AboutPage />} />
+          <Route path="/midterm_website/user" element={<UserPage />} />
+          <Route path="/midterm_website/create-user" element={<CreateUserPage />} />
         </Routes>
       </div>
     </Router>
