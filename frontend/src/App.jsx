@@ -2,12 +2,24 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import UserPage from './pages/UserPage';
+import CreateUserPage from './pages/CreateUserPage';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/user" element={<UserPage />} />
+          <Route path="/create-user" element={<CreateUserPage />} />
+        </Routes>
+      </Router>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
