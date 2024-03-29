@@ -9,13 +9,15 @@ import Navigation from './Navigation'; // Make sure the path is correct
 function App() {
   return (
     <Router>
-      <Navigation /> {/* This will render the navigation buttons */}
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/user" element={<UserPage />} />
-        <Route path="/create-user" element={<CreateUserPage />} />
-      </Routes>
+      <div>
+        <Navigation /> {/* This will render the navigation buttons */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/user" element={<UserPage />} />
+          <Route path="/create-user" element={<CreateUserPage />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
