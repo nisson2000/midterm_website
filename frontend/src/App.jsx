@@ -13,9 +13,9 @@ function App() {
         <Navigation /> {/* This will render the navigation buttons */}
         <Routes>
           <Route path="/midterm_website/" element={<HomePage />} />
-          <Route path="/midterm_website/" element={<AboutPage />} />
-          <Route path="/midterm_website/" element={<UserPage />} />
-          <Route path="/midterm_website/" element={<CreateUserPage />} />
+          <Route path="/midterm_website/about" element={<AboutPage />} />
+          <Route path="/midterm_website/user" element={<UserPage />} />
+          <Route path="/midterm_website/create-user" element={<CreateUserPage />} />
         </Routes>
       </div>
     </Router>
